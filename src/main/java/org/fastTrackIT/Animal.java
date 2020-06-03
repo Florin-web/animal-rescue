@@ -6,8 +6,8 @@ public class Animal {
     double health;
     double hunger;
     double mood;
-    String royalCanin;
-    String running;
+    String food;
+    String exercise;
     boolean dead;
 
 }
