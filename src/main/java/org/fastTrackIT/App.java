@@ -13,7 +13,7 @@ public class App {
 
 
 
-     {
+     static {
 
         Animal animal = new Animal();
         animal.name= "dog";
@@ -24,18 +24,24 @@ public class App {
         animal.food="royalCannin";
         animal.exercise="running";
 
-         System.out.println(animal.name);
-         System.out.println(animal.age);
-         System.out.println(animal.health);
-         System.out.println(animal.mood);
-         System.out.println(animal.food);
-         System.out.println(animal.exercise);
+//         System.out.println(animal.name);
+//         System.out.println(animal.age);
+//         System.out.println(animal.health);
+//         System.out.println(animal.mood);
+//         System.out.println(animal.food);
+//         System.out.println(animal.exercise);
+
+
+         Adopter adopter = new Adopter();
 
 
 
 
 
-    }
+
+
+
+     }
 }
 
 
