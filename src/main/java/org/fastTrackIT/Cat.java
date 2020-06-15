@@ -1,6 +1,6 @@
 package org.fastTrackIT;
 
-public class Cat {
+public class Cat extends Animal {
     String name;
     double age;
     double health;

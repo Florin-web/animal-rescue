@@ -1,6 +1,6 @@
 package org.fastTrackIT;
 
-public class Animal extends Dog {
+public class Animal  {
 
 
 
