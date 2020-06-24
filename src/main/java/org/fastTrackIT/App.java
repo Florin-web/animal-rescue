@@ -5,16 +5,11 @@ package org.fastTrackIT;
  *
  */
 public class App {
+
+
+
     public static void main( String[] args )
     {
-        System.out.println( "Welcome to Animal Rescure!" );
-    }
-
-
-
-
-     static {
-
         Animal animal = new Animal();
         animal.name= "dog";
         animal.age= 3;
@@ -32,16 +27,11 @@ public class App {
 //         System.out.println(animal.exercise);
 
 
-         Adopter adopter = new Adopter();
+        Adopter adopter = new Adopter();
+        System.out.println( "Welcome to Animal Rescure!" );
+    }
 
 
-
-
-
-
-
-
-     }
 }
 
 
