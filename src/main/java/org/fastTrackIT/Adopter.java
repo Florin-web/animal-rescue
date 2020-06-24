@@ -16,7 +16,7 @@ public class Adopter {
 
     public void exercie(Animal animal , RecreationActivity recreationActivity) {
         System.out.println("Exercise animal" + name);
-        System.out.println(name + " just did  " + recreationActivity.time + " with " + animal.name + "!");
+        System.out.println(name + " just did  " + recreationActivity.name + " with " + animal.name + "!");
         System.out.println(animal.name + "s happiness level is now: " + animal.mood);
 
 
