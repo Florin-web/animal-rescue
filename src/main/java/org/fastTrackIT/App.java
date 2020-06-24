@@ -8,7 +8,8 @@ public class App {
 
 
 
-    public static void main( String[] args )
+
+    public static void main(String[] args )
     {
         Animal animal = new Animal();
         animal.name= "dog";
@@ -29,6 +30,10 @@ public class App {
 
         Adopter adopter = new Adopter();
         System.out.println( "Welcome to Animal Rescure!" );
+
+
+
+
     }
 
 

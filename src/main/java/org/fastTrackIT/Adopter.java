@@ -5,7 +5,17 @@ public class Adopter {
     String name;
     double availableBalance;
 
-    public void feeding(Animal animal,AnimalFood animalFood) {
+    public Adopter(String exercise, String name, double availableBalance) {
+        this.exercise = exercise;
+        this.name = name;
+        this.availableBalance = availableBalance;
+    }
+
+    public Adopter() {
+
+    }
+
+    public void feeding(Animal animal, AnimalFood animalFood) {
         System.out.println("Feeding animal" + name);
         System.out.println(name + " just gave some " + animalFood.name + " to " + animal.name + "!");
 
